@@ -56,7 +56,7 @@ const Login = () => {
         <input onChange={(e) => setPassword(e.target.value)} type="password" placeholder='Enter password' />
         <div className='btn-container'>
           <Button btnText="Login" />
-          <Link style={{textDecoration: 'none' }} to="/signup">Sign up</Link>
+          <Link style={{textDecoration: 'none' }} to="/firebase-auth/signup">Sign up</Link>
         </div>
       </form>
     </div>
