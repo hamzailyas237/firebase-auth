@@ -13,7 +13,7 @@ const App = () => {
     <div className='App'>
 
       <Routes>
-        <Route path="/firebase-auth" element={<Login />}></Route>
+        <Route path="/" element={<Login />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
 
         <Route element={<ProtectedRoutes />}>
