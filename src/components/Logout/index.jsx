@@ -15,7 +15,7 @@ const Logout = () => {
 
     signOut(auth).then(() => {
       localStorage.removeItem('uid')
-      navigate('/firebase-auth')
+      navigate('/')
     })
       .catch((error) => {
         console.log(error);
