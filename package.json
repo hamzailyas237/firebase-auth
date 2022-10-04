@@ -2,7 +2,7 @@
   "name": "todo-app-with-firebase-auth-db",
   "homepage": "https://hamzailyas237.github.io/firebase-auth",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
