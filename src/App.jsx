@@ -13,6 +13,7 @@ const App = () => {
     <div className='App'>
 
       <Routes>
+        {/* written path='firebase-auth' due to issue in deployment to gh-pages  */}
         <Route path="/firebase-auth" element={<Login />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
 
